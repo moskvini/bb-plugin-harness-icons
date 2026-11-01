@@ -1,0 +1,30 @@
+{
+  "name": "bb-plugin-harness-icons",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Brand marks for the agent harnesses bb runs through ACP providers.",
+  "engines": {
+    "bb": ">=0.48",
+    "bbPluginSdk": ">=0.6.104"
+  },
+  "bb": {
+    "name": "Harness Icons",
+    "description": "Brand marks for the agent harnesses bb runs through ACP providers.",
+    "branding": {
+      "icon": "Shapes"
+    },
+    "app": "./app.tsx",
+    "server": "./server.ts"
+  },
+  "scripts": {
+    "build": "bb plugin build",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@get-bb/plugin-sdk": "0.6.104",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}
