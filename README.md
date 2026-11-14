@@ -46,6 +46,14 @@ brands throws at load instead of silently winning.
 
 ## Install
 
+Install directly from GitHub on the machine running the bb server:
+
+```sh
+bb plugin install git:github.com/moskvini/bb-plugin-harness-icons
+```
+
+To build and install from a local checkout:
+
 ```sh
 npm install
 bb plugin build
